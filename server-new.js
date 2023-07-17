@@ -26,13 +26,13 @@ app.post("/createUser", async(req,res)=>{
 
 app.get("/create", async(req,res)=>{
 
-    res.send("hiii")
+    res.send("hello")
 })
 
 app.use(express.static('../client/build'))
 app.get("*", async(req,res)=>{
 
-  res.sendFile(`${__dirname}../client/build/index.html`)
+  res.sendFile(`${__dirname}/client/build/index.html`)
 })
 
 app.listen(process.env.PORT || _PORT, () => {
