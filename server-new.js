@@ -32,7 +32,7 @@ app.get("/create", async(req,res)=>{
 app.use(express.static('../client/build'))
 app.get("*", async(req,res)=>{
 
-  res.sendFile(`${__dirname}http://straight-friends.surge.sh/`)
+  res.sendFile(`${__dirname}../client/build/index.html`)
 })
 
 app.listen(process.env.PORT || _PORT, () => {
