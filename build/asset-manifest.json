@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb2bcd3f.css",
+    "main.js": "/static/js/main.9b61d859.js",
+    "static/media/cptr_2.jpeg": "/static/media/cptr_2.e995875eb0ecd2d7a827.jpeg",
+    "static/media/vd.mp4": "/static/media/vd.43726e3e4db873e9efc8.mp4",
+    "static/media/c4.jpeg": "/static/media/c4.4797713a8aa8404d4063.jpeg",
+    "static/media/clienTow.jpg": "/static/media/clienTow.08e0d97cc4972ee50121.jpg",
+    "static/media/c5.jpeg": "/static/media/c5.1cf2d0c425f88f423e2a.jpeg",
+    "static/media/clienOne.jpg": "/static/media/clienOne.086d519cbaa623addb7f.jpg",
+    "static/media/c2.jpeg": "/static/media/c2.7aaff013e0f94474a42f.jpeg",
+    "static/media/c1.jpeg": "/static/media/c1.cc4d7bd09f461f01aeb6.jpeg",
+    "static/media/c3.jpeg": "/static/media/c3.cfc04255017884b40201.jpeg",
+    "static/media/shirt_3.jpg": "/static/media/shirt_3.74b3af7835bb16c8ab82.jpg",
+    "static/media/prdComment_9.jpg": "/static/media/prdComment_9.0c518be6b1d8fdecc8bc.jpg",
+    "static/media/prdComment_5.jpg": "/static/media/prdComment_5.ebeaeefdd45d569dc91a.jpg",
+    "static/media/prdComment_4.jpg": "/static/media/prdComment_4.b5f739f40d2c69ddceff.jpg",
+    "static/media/logo final.png": "/static/media/logo final.acc72150ac7632da18f2.png",
+    "static/media/prdComment_7.jpg": "/static/media/prdComment_7.8ba68fbc0ea21a63a39e.jpg",
+    "static/media/nyan-cat-gif-1.gif": "/static/media/nyan-cat-gif-1.cb0b75a291246f071d64.gif",
+    "static/media/clienTree.jpg": "/static/media/clienTree.f076e31737315cc4c077.jpg",
+    "static/media/prdComment_8.jpg": "/static/media/prdComment_8.45eea863a21dbe73676d.jpg",
+    "static/media/prdComment_3.jpg": "/static/media/prdComment_3.9f12c4e1c1231f06209d.jpg",
+    "static/media/cptr.jpg": "/static/media/cptr.865a3eaab82a7866b9f1.jpg",
+    "static/media/prdComment_1.jpg": "/static/media/prdComment_1.3f848436bc00d368e7a4.jpg",
+    "static/media/prdComment_6.jpg": "/static/media/prdComment_6.10671cdaa892b54d8777.jpg",
+    "static/media/prdComment_2.jpg": "/static/media/prdComment_2.c0fd7277d1e1dc21566f.jpg",
+    "index.html": "/index.html",
+    "main.fb2bcd3f.css.map": "/static/css/main.fb2bcd3f.css.map",
+    "main.9b61d859.js.map": "/static/js/main.9b61d859.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2bcd3f.css",
+    "static/js/main.9b61d859.js"
+  ]
+}
