@@ -28,10 +28,10 @@ app.get("/create", async(req,res)=>{
     res.send("hello")
 })
 
-app.use(express.static('../client/build'))
+app.use(express.static('./build'))
 app.get("*", async(req,res)=>{
   
-  res.sendFile(`${__dirname}../client/build/index.html`)
+  res.sendFile(`${__dirname}./build/index.html`)
 })
 
 app.listen(process.env.PORT || _PORT, () => {
