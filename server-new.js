@@ -20,7 +20,7 @@ const UserModel = require("./models/Users");
 app.post("/createUser", async(req,res)=>{
   const newUser = new UserModel(req.body);
   await newUser.save();
-  res.json(req.body);
+  //res.json(req.body);
 })
 
 app.get("/create", async(req,res)=>{
