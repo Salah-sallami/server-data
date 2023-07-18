@@ -28,7 +28,7 @@ app.get("/create", async(req,res)=>{
     res.send("hello")
 })
 
-app.use(express.static('../client/build'))
+app.use(express.static('./build2'))
 app.get("*", async(req,res)=>{
   
   res.sendFile(`${__dirname}./build2/index.html`)
