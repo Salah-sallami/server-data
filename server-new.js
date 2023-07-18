@@ -7,12 +7,12 @@ app.use(cors())
 app.use(express.json())
 
 // Connect to DB
-const   username = "bippo",
-        password = "matik12345",
+const   username = "bippoNew",
+        password = "matik54321",
         database = "mern-new"
 
 const mongoose = require("mongoose");
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster1.wofue0i.mongodb.net/${database}`,{ useNewUrlParser: true , useUnifiedTopology: true })
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster1.wofue0i.mongodb.net/${database}?retryWrites=true&w=majority`,{ useNewUrlParser: true , useUnifiedTopology: true })
 
 // USER MODEL
 const UserModel = require("./models/Users");
