@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server-new",
+<<<<<<< HEAD
     "dev": "nodemon server-new.js"
+=======
+    "dev": "nodemon server-new.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+>>>>>>> cce9b2c3721dea5289961f83b0d2a81906008d08
   },
   "keywords": [],
   "author": "",
