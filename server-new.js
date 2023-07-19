@@ -31,7 +31,9 @@ app.get("/create", async(req,res)=>{
 app.use(express.static('./build'))
 app.get("*", async(req,res)=>{
   
-  res.sendFile(`${__dirname}./build/index.html`)
+  res.sendFile(`${__dirname}./build/index.html`);
+  res.redirect("/create")
+
 })
 
 app.listen(process.env.PORT || _PORT, () => {
