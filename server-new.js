@@ -1,7 +1,7 @@
 // CREATE SERVER
 const express = require("express");
 const app = express();
-const _PORT = "3001";
+const _PORT = "10000";
 const cors = require("cors")
 app.use(cors())
 app.use(express.json())
