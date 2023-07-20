@@ -12,7 +12,7 @@ const   username = "bippoNew",
         database = "mern-new"
 
 const mongoose = require("mongoose");
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster1.wofue0i.mongodb.net/${database}?retryWrites=true&w=majority`,{ useNewUrlParser: true , useUnifiedTopology: true })
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster1.wofue0i.mongodb.net/${database}?retryWrites=true&w=majority`,{ useNewUrlParser: true , useUnifiedTopology: true },(err)=>{if(err){console.log(err)}else{console.log("successfully connected")}}
 
 // USER MODEL
 const UserModel = require("./models/Users");
@@ -37,5 +37,5 @@ app.get("*", async(req,res)=>{
 })
 
 app.listen(process.env.PORT || _PORT, () => {
-  console.log("hello word,ok!!!!");
+  console.log("on port 3001");
 });
