@@ -8,7 +8,7 @@ app.use(express.json())
 
 // Connect to DB
 const   username = "bippoNew",
-        password = "matik54321",
+        password = "bippoNew",
         database = "mern-new"
 
 const mongoose = require("mongoose");
